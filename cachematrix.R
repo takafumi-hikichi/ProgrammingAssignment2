@@ -4,6 +4,12 @@
 ## Write a short comment describing this function
 ## This function creates a special "matrix" object that can cache
 ## its inverse.
+## Similar to "makeVector", this function creates a list containing
+## the following functions:
+## 1.set the value of the matrix
+## 2.get the value of the matrix
+## 3.set the value of the matrix inverse
+## 4.get the value of the matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
